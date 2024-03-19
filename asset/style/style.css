@@ -1,0 +1,70 @@
+/* ! Reset */
+body, html{ font-family: 'Inter', Arial, Helvetica, sans-serif; font-size: 16px; box-sizing: border-box;margin: 0;padding: 0;}*,*:before,*:after{ box-sizing: border-box; }h1,h2,h3,h4,h5,h6, p, ol, ul{margin: 0 0 1rem 0;padding: 0;}ol,ul{list-style-type: none;}img{height: auto;}h1{font-size: 4rem;} h2{font-size: 3rem;} h3{font-size: 2rem;} h4{font-size: 1rem;} h5{font-size: 0.8rem;} h6{font-size: 0.6rem;}a{text-decoration:none}
+
+
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  margin: 0 auto;
+}
+.title{
+  color: green;
+  margin-top: 100px;
+}
+#input-number{
+  height: 50px;
+  width: 100%;
+  border-radius: 10px;
+  border: 1px solid #eee;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.hint-container{
+  width: 100%;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+  font-size: 20px;
+  height: 0;
+}
+.container__button{
+  margin-top: 10px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+.container__button button{
+  width: 100%;
+  height: 30px;
+  height: 50px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 24px;
+}
+#btn-verifica{
+  background: blue;
+  color: #fff;
+}
+.answers{
+  width: 100%;
+}
+.answer-block{
+  border: 1px solid #eee;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin-top: 10px;
+}
+.answer-block p{
+  margin: 0;
+}
